@@ -1,0 +1,4 @@
+config BR2_PACKAGE_RPI
+	bool "rpi"
+	help
+	  Includes the files to be loaded on the raspberry pi
