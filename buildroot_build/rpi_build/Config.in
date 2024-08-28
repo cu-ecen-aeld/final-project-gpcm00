@@ -1,1 +1,3 @@
+
 source "$BR2_EXTERNAL_rpi_build_PATH/package/rpi/Config.in"
+source "$BR2_EXTERNAL_rpi_build_PATH/package/dev/Config.in"

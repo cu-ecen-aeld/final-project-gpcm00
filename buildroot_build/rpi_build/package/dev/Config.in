@@ -1,0 +1,4 @@
+config BR2_PACKAGE_DEV
+	bool "dev"
+	help
+		Includes the device drivers for the module

@@ -20,7 +20,7 @@ PATH=$(filter_path)		# ommit this function if not using wsl
 
 cd $curr_dir
 
-if [ ! -e ../buildroot/.config ]
+if [ ! -e ../buildroot/.config ] || [ "$1" == "defconfig" ]
 then
 	echo "Building with defconfig"
 	make -j$(nproc) -C ../buildroot defconfig BR2_EXTERNAL=$curr_dir/rpi_build BR2_DEFCONFIG=$curr_dir/configs/custom_rpi_defconfig
