@@ -4,7 +4,7 @@
 #
 ##############################################################
 
-RPI_VERSION = '06a3f8f'
+RPI_VERSION = 'dd93969'
 RPI_SITE = 'git@github.com:gpcm00/power-modulator.git'
 RPI_SITE_METHOD = git
 RPI_GIT_SUBMODULES = YES
