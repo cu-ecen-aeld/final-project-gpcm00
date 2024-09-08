@@ -29,4 +29,4 @@ dtoverlay=miniuart-bt
 dtparam=krnbt=on
 
 dtoverlay=testoverlay
-dtoverlay=pownmodul
+dtoverlay=powctl
